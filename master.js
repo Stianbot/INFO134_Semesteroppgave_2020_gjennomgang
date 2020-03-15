@@ -13,3 +13,6 @@ function load(url){
     };
     xhr.send()
 }
+
+var request = load(turer)
+console.log(request);
