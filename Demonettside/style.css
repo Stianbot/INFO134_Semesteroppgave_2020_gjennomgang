@@ -1,0 +1,93 @@
+/*
+  Les først "LESMEG.txt" filen.
+*/
+html{
+  font-family: 'Roboto', sans-serif;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  padding-top: 5%;
+  color: white;
+  font-size: 20px;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#all{
+  min-height: 100%;
+  background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#header{
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #c777b9,#d16ba5);
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, #ba83ca, #aa8fd8);
+}
+
+button{
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom,  #9a9ae1, #8aa7ec);
+}
+
+button:hover{
+  background-image: linear-gradient(to top,  #9a9ae1, #8aa7ec);
+}
+
+span{
+  background-image: linear-gradient(to right,  #FF6F91, #FF9671);
+  padding: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+
+/* NOTE:
+#845EC2
+#D65DB1
+#FF6F91
+#FF9671
+#FFC75F
+#F9F871 */
+
+/* NOTE: gradient generert på denne siden: https://mycolor.space/gradient */
