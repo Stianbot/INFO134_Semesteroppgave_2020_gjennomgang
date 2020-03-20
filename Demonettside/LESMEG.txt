@@ -1,0 +1,16 @@
+Denne nettsiden er et eksempel på en "komplett" nettside.
+Her hentes det inn data fra en ekstern ressurs (http://xml.arkivverket.no/folketellinger/API_1910_koord.pdf)
+som manipuleres og vises på nettsiden.
+
+Nettsiden fungerer slik:
+Skriv inn ett navn i søkefeltet og klikker på "søk" knappen.
+Du vil da få de første 500 navn fra folketellingen 1910 som passer med søkestrengen.
+Antall søketreff kan endres i koden: se Search() konstruktøren.
+Informasjon som skrives ut på siden er: fornavn og etternavn, fødselsted og fødselsår.
+
+Koden til denne nettsiden er bare ment som inspirasjon, og får å demonstrere hvordan det er mulig å løse
+utfordringer som kan ligne på det dere møter på i den karaktersatte semesteroppgaven.
+Det er ikke meningen at dere skal kopiere denne koden og bruke den i den karaktersatte semesteroppgaven.
+
+Koden er ikke kommentert, slik at dere selv kan prøve å forstå hva som skjer, og hvordan de ulike funksjonene
+fungerer sammen. Om dere har spørsmål eller ønsker forklaringer, ta kontakt.

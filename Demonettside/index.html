@@ -1,0 +1,31 @@
+<!--
+  Les først "LESMEG.txt" filen.
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!--importerer en font. Dette er ikke tillatt i den karaktersatte semesteroppgaven,
+        siden det er en ekstern ressurs.-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="master.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <div id="all">
+
+    <div id="header">
+      <h1>Folketellingen 1910</h1>
+      <p>Søk etter navn</p><input type="text" id="inputkey">
+      <button type="button" id="knapp" onclick="getKey(search_obj)">Søk</button>
+    </div>
+
+    <div id="main">
+      <ul id="liste"></ul>
+    </div>
+
+    </div>
+  </body>
+</html>
