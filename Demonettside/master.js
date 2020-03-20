@@ -16,7 +16,7 @@ function Search(limit) {
   this.template = "https://api.digitalarkivet.no/v1/census/1910/search_person?s="
   this.key = null
   this.limit ="&limit=" + limit
-  this.calculateurl = function functionName() { if (this.key != null) {this.url = this.template + this.key + this.limit} if (this.key == null) {throw "Du trenger søkenøkkelen"}}
+  this.calculateurl = function() { if (this.key != null) {this.url = this.template + this.key + this.limit} if (this.key == null) {throw "Du trenger søkenøkkelen"}}
   this.url = null
   this.data = null
 }
@@ -29,7 +29,7 @@ function getKey(obj) {
     if (value == obj.key) {
       alert("Skriv inn et nytt navn")
     }
-    if (value != obj.key) {
+    if (value != obj.key && value != null && value !="") {
       obj.key = value
       obj.calculateurl()
       hent(obj.url, obj, function(data) {program(data)})
