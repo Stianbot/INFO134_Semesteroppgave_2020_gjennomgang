@@ -48,7 +48,7 @@ Kaller også på to metoder (lagUrl(), load()) for henholdsvis å lage komplett 
 */
 var grieg = new Søk("Grieg")
 grieg.lagUrl()
-//grieg.load()
+grieg.load()
 
 /*
 Samme som over. Bare med ulikt søkeord.
@@ -60,7 +60,7 @@ Merk at dette skjer bare etter at data er ferdig lastet ned.
 var bull = new Søk("Bull", function() {alterButtons(false); hide("laster"); printToPage(bull) ;})
 bull.lagUrl()
 // NOTE: Kjører load() med en timeout for å simulere en treg ressurss
-//setTimeout(function () {bull.load()}, 2000);
+setTimeout(function () {bull.load()}, 2000);
 // NOTE: denne gir undefined i konsoll fordi data ikke er lastet inn enda. Det tar (+)to sekunder å laste inn data
 console.log(bull.data);
 
