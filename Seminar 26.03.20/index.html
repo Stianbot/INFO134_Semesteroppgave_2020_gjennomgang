@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="master.js" charset="utf-8"></script>
+    <title></title>
+    <style media="screen">
+    
+      .hidden{
+        display: none
+      }
+      .visible{
+        display: block
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="resultat">
+    <p>Oversikt</p>
+    <input id="oversikt_input" type="text">
+    <button type="button" onclick="printDetaljer()">Søk</button>
+    </div>
+
+    <p>Sammenligning</p>
+    <input id="sammenligning_input" type="text">
+    <button type="button" onclick="hentInput('sammenligning_input')">Søk</button>
+
+<!-- NOTE: Demonstrasjon av å legge til data i table -->
+    <table>
+  <tr>
+    <th>Toy manufacturer</th>
+    <th>Model</th>
+    <th>Kommune</th>
+  </tr>
+  <tr id="test">
+    <td>Bruder Toys</td>
+    <td>Bruder Toys</td>
+  </tr>
+  <tr>
+    <td>Bruder Toys</td>
+    <td>0567 DHL Lorry</td>
+  </tr>
+</table>
+
+    <div>
+      <ul id="liste">
+      </ul>
+    </div>
+  </body>
+</html>
+
+<!-- NOTE: Demonstrasjon av å vise/skjule elementer med tilskriving av klasser -->
+<button type="button" onclick="vis(0)">vis rød</button>
+<button type="button" onclick="vis(1)">vis blå</button>
+<button type="button" onclick="vis(2)">vis gul</button>
+
+<p class="hidden">Rød</p>
+<p class="hidden">Blå</p>
+<p class="hidden">Gul</p>
