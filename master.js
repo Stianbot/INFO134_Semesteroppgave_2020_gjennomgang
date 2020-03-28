@@ -17,6 +17,7 @@ function last(url, func) {
       //console.log(data.features[0].geometry.coordinates[0], data.features[0].geometry.coordinates[1] );
       if (func) {
         func(data)
+
       }
 
     };
