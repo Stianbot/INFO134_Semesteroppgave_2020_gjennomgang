@@ -1,1 +1,7 @@
 Denne koden er skrevet av og tilhører Lasse
+
+
+Koden til denne nettsiden er bare ment som inspirasjon, og får å demonstrere hvordan det er mulig å løse
+utfordringer som kan ligne på det dere møter på i den karaktersatte semesteroppgaven.
+Det er ikke meningen at dere skal kopiere denne koden og bruke den i den karaktersatte semesteroppgaven.
+Altså ikke kopier denne koden for bruk i deres egne prosjekter.
